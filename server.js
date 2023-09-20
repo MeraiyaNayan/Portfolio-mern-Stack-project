@@ -5,12 +5,12 @@ import colors from 'colors'
 import  portfolioRoutes from './routes/portfolioRoute.js'
 import connectDB from './config/db.js'
 import path from 'path'
-import dirname  from 'path';
+import __dirname  from 'path';
 
 
 
 // dotenv Configuartion
-
+const __dirname = path.resolve();
 dotenv.config();
 
 connectDB();
