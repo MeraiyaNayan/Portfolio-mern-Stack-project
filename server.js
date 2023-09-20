@@ -5,7 +5,6 @@ import colors from 'colors'
 import  portfolioRoutes from './routes/portfolioRoute.js'
 import connectDB from './config/db.js'
 import path from 'path'
-import __dirname  from 'path';
 
 
 
